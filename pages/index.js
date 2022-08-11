@@ -1,5 +1,12 @@
-import NavBar from '../components/NavBar';
+import Head from 'next/head';
 
 export default function Home() {
-  return <h1>Home</h1>;
+  return (
+    <div>
+      <Head>
+        <title>Kihoon's Home | Next Movies </title>
+      </Head>
+      <h1>Home</h1>
+    </div>
+  );
 }
